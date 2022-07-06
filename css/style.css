@@ -1,6 +1,4 @@
 /*universal css */
-/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Poppins:wght@400;600&family=Roboto&display=swap');*/
-
 * {
 	margin: 0;
 	padding: 0;
@@ -20,6 +18,8 @@ p {
 .text-center {
 	text-align: center;
 }
+
+.agency-color{color: #FF5959;}
 
 .donate-btn {
 	text-decoration: none;
@@ -44,7 +44,7 @@ p {
 .donate-today p,
 .footer-section p,
 .donate-plan-section p,
-.get-notification-section p {
+.update-section p {
 	color: rgb(128, 128, 128);
 	margin: 17px 0;
 	font-family: 'Poppins', sans-serif;
@@ -52,7 +52,9 @@ p {
 
 .donate-today h2,
 .donate-plan-section h2,
-.get-notification-section h2 {
+.update-section h2,
+.agency-section h2,
+.activitics h1{
 	font-size: 30px;
 	margin: 20px 0;
 	font-family: 'Inter', sans-serif;
@@ -64,9 +66,7 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../img/main-header-bg.png");
-	/*background-image: url("../bg/donation13.jpg");*/
-	/*background-image: url("../bg/caritas1.jpg");*/
+	background-image: url("../img/header-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 50px;
@@ -175,8 +175,29 @@ p {
 	background-color: #FFF4D6;
 }
 
-/*get-notification-section*/
-.get-notification-section {
+/*agency-section*/
+.agency-section{ padding: 5% 10%; }
+.agency-section p{ margin: 30px 0; }
+
+.social-activitics{
+	display: flex;
+	justify-content: space-between;
+}
+
+.activitics {
+	width: 23%;
+	height: 33ch;
+	box-shadow: 0 3px 3px 3px #ccc;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.activitics h1 {
+	color:#FF5959;
+}
+
+/*update-section*/
+.update-section {
 	width: 60%;
 	margin: auto;
 	padding: 30px;
