@@ -43,7 +43,7 @@ p {
 .header-describtion p,
 .donate-today p,
 .footer-section p,
-.donate-plan-section p,
+.donate-employ-section p,
 .update-section p,
 .event-section p{
 	color: rgb(128, 128, 128);
@@ -52,7 +52,7 @@ p {
 }
 
 .donate-today h2,
-.donate-plan-section h2,
+.donate-employ-section h2,
 .update-section h2,
 .agency-section h2,
 .activitics h1,
@@ -68,7 +68,7 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../img/header-bg.jpg");
+	background-image: url("../img/main-header-bg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 50px;
@@ -90,8 +90,8 @@ p {
 }
 
 
-/*donate-today-section*/
-.donate-today-section {
+/*donate-amount-section*/
+.donate-amount-section {
 	padding: 5% 20%;
 	display: flex;
 	align-items: center;
@@ -141,8 +141,8 @@ p {
 	border: 2px solid #FF5959;
 }
 
-/*donate-plan-section*/
-.donate-plan-section {
+/*donate-employ-section*/
+.donate-employ-section {
 	width: 80%;
 	margin: auto;
 	margin-bottom: 50px;
@@ -198,20 +198,20 @@ p {
 }
 
 /*event-section*/
-.event-section{
-	width: 80%;
-	height: 110vh;
-	margin: auto;
+.event-section {
+    width: 80%;
+    min-height: 364px;
+    margin: auto;
 }
 
-.event-container{
+.event-container {
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 10px;
+	justify-content: space-evenly;
+	margin-bottom: 18px;
 }
 
-.event-container img{
-	width: 24%;
+.event-container img {
+	width: 22%;
 	border-radius: 10px;
 }
 
