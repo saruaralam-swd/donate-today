@@ -44,7 +44,8 @@ p {
 .donate-today p,
 .footer-section p,
 .donate-plan-section p,
-.update-section p {
+.update-section p,
+.event-section p{
 	color: rgb(128, 128, 128);
 	margin: 17px 0;
 	font-family: 'Poppins', sans-serif;
@@ -54,7 +55,8 @@ p {
 .donate-plan-section h2,
 .update-section h2,
 .agency-section h2,
-.activitics h1{
+.activitics h1,
+.event-section h2 {
 	font-size: 30px;
 	margin: 20px 0;
 	font-family: 'Inter', sans-serif;
@@ -186,7 +188,6 @@ p {
 
 .activitics {
 	width: 23%;
-	height: 33ch;
 	box-shadow: 0 3px 3px 3px #ccc;
 	border-radius: 20px;
 	padding: 20px;
@@ -194,6 +195,24 @@ p {
 
 .activitics h1 {
 	color:#FF5959;
+}
+
+/*event-section*/
+.event-section{
+	width: 80%;
+	height: 110vh;
+	margin: auto;
+}
+
+.event-container{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.event-container img{
+	width: 24%;
+	border-radius: 10px;
 }
 
 /*update-section*/
