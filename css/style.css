@@ -64,7 +64,7 @@ p {
 
 /*Header-section*/
 .main-header-section {
-	height: 90vh;
+	height: 600px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -73,7 +73,6 @@ p {
 	background-size: cover;
 	margin-bottom: 50px;
 }
-
 .header-describtion {
 	width: 60%;
 }
@@ -224,7 +223,7 @@ p {
 }
 
 .testimonial {
-	height: 25vh;
+	height: 158px;
 	background-color: #FFF4D6;
 	display: flex;
 	justify-content: center;
@@ -253,15 +252,12 @@ p {
 	background-color: #FD5757;
 	border-radius: 0px 5px 5px 0px;
 	font-weight: normal;
+	cursor: pointer;
 }
-.testimonial input [type='submit']:hover {
-	background-color: #d81111;
-}
-
 
 /*footer-section*/
 .footer-section {
-	height: 20vh;
+	height: 200px;
 	color: white;
 	background-color: #0B0D17;
 	display: flex;
